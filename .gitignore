@@ -1,0 +1,23 @@
+# Documentos de entrada e resultados gerados (podem conter dados confidenciais)
+pdfs/**
+!pdfs/.gitkeep
+textos/**
+!textos/.gitkeep
+
+# Arquivos temporários e caches do Python
+__pycache__/
+*.py[cod]
+*.tmp
+*.log
+
+# Ambientes virtuais e configurações locais
+.venv/
+venv/
+.env
+.tools/
+
+# Ferramentas e sistema operacional
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
